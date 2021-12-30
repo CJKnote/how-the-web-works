@@ -1,0 +1,12 @@
+Caroline Knote 
+Terminology Questions
+
+1. HTTP is Hypertext Transfer Protocol, the way the browser and servers communicate
+2. A URL is the address for a webpage or other internet page
+3. DNS is Domain Name System. It translates a hostname/URL into the IP address
+4. A query string is a part of a url that provides extra information which can change which page is loaded. Can have multiple arguments with '&'
+5. Two HTTP verbs are GET and POST. GET requests data from the server without side effects (does not change data) and the arguments are passed in the query string. POST requests with side effects (data can change). It is sending data to the server. The arguments are passed in the body of the request. 
+6. An HTTP request is a request to a server that follows the hypertext transfer protocol, taking information from the URL/inputs from the user to request from the server.
+7. An HTTP response is the response from the server to the user following the HTTP protocol version. It gives a status code based on success and sends back data following the request.
+8. An HTTP header gives extra information about the request/response. A request header is something like the language you want the webpage in, or the cookies the server has sent. A response header example is the date/time of the server and the content type. 
+9. When you type in a URL. The start determines which protocol it will use. Then the browser translates the hostname to an IP address and makes requests to the IP address based on the information from the broswer and the querystring. Then the server gives a response and the broswer loads the webpage from the data sent from the server. (Making the DOM if it is a HTML page, for example).
